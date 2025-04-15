@@ -17,6 +17,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
+        <module name="configserver" />
       </profile>
       <profile name="Annotation profile for activityService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -33,6 +34,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath>
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="aiservice" />
       </profile>
@@ -42,6 +44,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activityService" options="-parameters" />
       <module name="aiservice" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="userService" options="-parameters" />
     </option>
